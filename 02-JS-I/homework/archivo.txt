@@ -1,0 +1,17 @@
+Primera parte del homework. 
+    - Variable: llamamos variable a todo aquello que puede recibir un valor, un valor que 
+    nosotros vamos a entregarle, y tienen varios tipos de valores, como por ejemplo:
+    de letras, números, entre otros. 
+
+    - Strings: cuando decimos 'string' nos referimos a un tipo de variable. Podríamos escribir
+    números, fechas, palabras, textos, pero para que sean de tipo 'String' tienen que estar 
+    dentro de comillas.
+
+    - Funciones: las funciones son un pedazo de código que tienen como trabajo hacer lo que 
+    esté dentro de ella. Normalmente se le dan valores (que llamaremos argumentos), y deberían 
+    devolverte un valor (resultado). 
+
+    - Declaraciones: son las que utilizamos para poder luego definir a nuestras variables.
+
+    - Valores booleanos: para los valores booleanos solamente existen dos valores, uno que significa
+    que algo está pasando, y el otro que significa que no. 
