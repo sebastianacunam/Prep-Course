@@ -11,7 +11,7 @@ Primera parte del homework.
     esté dentro de ella. Normalmente se le dan valores (que llamaremos argumentos), y deberían 
     devolverte un valor (resultado). 
 
-    - Declaraciones: son las que utilizamos para poder luego definir a nuestras variables.
+    - Declaraciones: son instrucciones que damos para ser ejecutadas.
 
     - Valores booleanos: para los valores booleanos solamente existen dos valores, uno que significa
     que algo está pasando, y el otro que significa que no. 
