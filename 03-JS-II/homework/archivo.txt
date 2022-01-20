@@ -1,0 +1,5 @@
+Primera parte del homework. 
+    for: es un ciclo que se repite tantas veces lo especifiquemos nosotros.
+
+    &&, || y ! son operadores lógicos, que nos indican a nosotros lo siguiente
+    y, ó, NO, respectivamente. 
