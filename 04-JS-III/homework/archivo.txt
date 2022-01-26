@@ -1,0 +1,4 @@
+Primera parte del homework. 
+    Arrays: 
+    Es un conjunto de datos que comparten un mismo valor en general, por ejemplo, podríamos definir la variable autosTodos y dentro ella 
+    empezar a darle valores de marcas de autos (Toyota, Ford, Volkswagen). 
