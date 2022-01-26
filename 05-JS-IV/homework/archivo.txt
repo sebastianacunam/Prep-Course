@@ -1,0 +1,14 @@
+Primera parte del ejercicio (definiciones): 
+
+- Objetos: Se puede definir a los objetos como un grupo de instrucciones
+o de valores relacionados a ese objeto, pueden ser strings, numeros, booleanos,
+
+- Propiedades: Son todos los valores que le vamos a asignar a los objetos.
+
+- Métodos: los métodos son preopiedades de un objeto, las funciones DENTRO de un objeto
+se denominan métodos.
+
+- Bucle for..in: es un ciclo itetarivo pero para objetos. 
+
+- Notación de puntos vs notación de corchetes: La finalidad de ambas notaciones es llamar
+a la propiedad de un objeto. 
