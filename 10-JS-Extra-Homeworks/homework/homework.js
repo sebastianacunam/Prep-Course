@@ -1,5 +1,7 @@
 // No cambies los nombres de las funciones.
 
+const { arrayReplaceAt } = require("markdown-it/lib/common/utils");
+
 function deObjetoAmatriz(objeto){
   // Escribe una función que convierta un objeto en una matriz, donde cada elemento representa 
   // un par clave-valor en forma de matriz.
@@ -10,6 +12,16 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
+
+    // let nuevoArray = Object.entries(objeto);
+    // return nuevoArray;
+
+    var nuevoArray = [];
+    for (clave in objeto) {
+        nuevoArray.push([clave, objeto[clave]])        
+      }
+
+    return nuevoArray;
 }
 
 
@@ -18,6 +30,16 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
+
+  var cuanto = {};
+  for (let i = 0; i < string.length; i++) {
+    if (Object.keys(cuanto).includes(string[i])){
+      cuanto[string[i]] = cuanto[string[i]] + 1;
+    } else {
+      cuanto[string[i]] = 1;
+    }
+  }
+  return cuanto;
 }
 
 
@@ -26,6 +48,18 @@ function capToFront(s) {
   //al principio de la palabra.
   //Ejemplo: soyHENRY -> HENRYsoy
   //Escribe tu código aquí
+  
+  minusculas = "";
+  mayusculas = ""; 
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] === s[i].toUpperCase()){
+      mayusculas = mayusculas + s[i];
+    } else {
+      minusculas = minusculas + s[i];
+    }
+  }
+
+  return mayusculas+minusculas; 
 }
 
 

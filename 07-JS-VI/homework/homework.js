@@ -87,7 +87,7 @@ function filter(array) {
 var resultado = array.filter (function(palabra){
   return palabra[0] === "a";
 });
-return resultado
+return resultado 
 
 
 
